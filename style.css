@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color:#000000;
+    
+    
+}
+body{
+    font-family: "Poppins", sans-serif;background: linear-gradient(to right,rgba(44, 193, 89, 0.098), rgba(245, 2, 2, 0.095),rgba(148, 146, 146, 0.084));
+
+}
+
+main{
+    min-height: 100vh;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+
+}
+nav img{
+    width: 7.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    /* border-bottom: 1px solid; */
+    padding-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 50;
+    font-family: "Anton", sans-serif;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li{
+    margin-right:1.5rem ;
+    padding: 0.3rem;
+    cursor: pointer;
+    height: 2.5rem;
+}
+nav ul li:hover{
+    color: rgb(255, 0, 0);
+}
+.demo{
+    background-color:rgba(255, 0, 0, 0.74);
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem 0rem  ;
+    transform: 0.3s ease-out;
+}
+.demo:hover{
+    background-color: #000000;
+    border-radius: 0.5rem;
+    transform: scale(1.05);
+}
+.home{
+    color: rgb(255, 0, 0);
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-bottom: 2rem;
+}
+.left{
+    /* max-width: 60vw; */
+    padding: 0 2.5rem 2.5rem 2.5rem; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.left p{
+    text-align: justify;
+    color: white;
+}
+.left img{
+    width: 18rem;
+    margin-top: 2rem;
+   
+}
+.right{
+    /* width: 40vw; */
+    margin-bottom: 0;
+    background-color: white;
+}
+.right img{
+    width: 20rem;
+    padding: 3rem 5rem 0rem 0rem;
+    margin-left: 5.5rem;
+}
+.right h3{
+    font-size: 1rem;
+    margin: 0 0 0 10rem;
+    
+}
+.right span{
+    font-family: "Source Code Pro", monospace;
+}
+
+.main2{
+    /* justify-content: center; */
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 3.5rem;
+}
+.main2 h1{
+    font-size: 4rem;
+    margin:2rem 0 1rem 0;
+}
+.main2 h1 span{
+    font-size: 4rem;
+    color:red;
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-box{
+    background: linear-gradient(to right,rgba(255, 0, 0, 0.416) , rgba(255, 192, 203, 0.488) );
+    
+    width: 20rem;
+    height: 22.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+ 
+}
+.offer-box h3{
+    font-size: 2rem;
+    font-weight: 450;
+}
+.offer-box h2{
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    color: rgb(255, 0, 225);
+}
+.offer-box h2 span{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+.offer-box h4{
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+    font-weight: 600;
+}
+.offer-box p{
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+.offer-box button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 8, 218);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transform: 0.3s ease;
+}
+.offer-box button:hover{
+    transform: scale(0.9);
+}
+.offer-box h1{
+    font-size: 1.3rem;
+}
+.main3{
+    margin-top: 2rem;
+}
+.main3 h1{
+    font-size: 3rem;
+}
+.main3 details{
+    margin: 0.75rem 0 0 1.5rem;
+}
+.main3 summary{
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+}
+.main3 summary span{
+    font-weight: 500;
+}
+.main3 span{
+    color: red;
+}
+.main3 p{
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 2rem;
+}
+.main4{
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid;
+}
+.main4 h1{
+    font-size: 3rem;
+}
+.main4 h1 span{
+    color: red;
+}
+.main4 p{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+ }
+ footer span{
+    color: red;
+ }
